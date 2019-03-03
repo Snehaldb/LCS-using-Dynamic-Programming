@@ -63,7 +63,7 @@ public class LCS {
 
         // try catch to give the exception if the file does not exist
         try {
-            FileInputStream fstream = new FileInputStream("/Users/snehal/Downloads/LCS/src/sequences.txt");
+            FileInputStream fstream = new FileInputStream("sequences.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
             String strLine;
             String value = "";
